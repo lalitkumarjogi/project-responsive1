@@ -1,0 +1,442 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html,body{
+     width: 100%;
+     height: 100%;
+}
+.main{
+     width: 100%;
+     height: 100%;
+     position: relative;
+}
+.top {
+      padding: 1.2vw  0vw;
+       text-align: center;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: 1vw;
+       text-transform: capitalize;
+       color: #000;
+
+}
+.nav{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw;
+  border-bottom: 2px solid #daddda;
+}
+.nav img{
+     width: 10vw;
+}
+.nav2{
+     /* display: block ; */
+}
+ul li{
+     display: block;
+}
+a{
+     color: #000;
+     gap: 50px;
+     margin: 1vw;
+     font-size: 1.1vw;
+     font-weight: 400;
+     text-decoration: none;
+     text-transform: capitalize;
+}
+ a button{
+      padding: .8vw 2vw;
+      border-radius: 8vw;
+      font-size: 1.1vw;
+      border: none;
+     color: #fff;
+     align-items: center;
+
+      background-color:greenyellow;
+ }
+ a button:hover{
+     background-color: #000;
+ }
+ 
+ .content{
+     width: 100%;
+     height: calc(100% - 100px);
+      display: flex;
+ }
+ .left{
+      width: 40%;
+      height:100%;
+ }
+ .text{
+      padding:  10vw 5vw;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .text h1{
+      font-size: 3.2vw;
+      line-height: 3.6vw;
+ }
+ .text h1 span{
+      color:red;
+ }
+ .text p{
+      font-size: 1.1vw;
+      margin-top:1vw;
+      margin-bottom: 2vw;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .left button{
+     padding: 1vw 1.5vw;
+     border: none;
+     border-radius: 50px;
+     background-color: teal;
+     color: #fff;
+     font-size: 1.1vw;
+     font-weight: 300;
+ }
+ .left button:hover{
+     background-color:springgreen;
+}
+ .right{
+     width: 60%;
+     height: 100%;
+ }
+ .right img{
+      width: 100%;
+      height: 100%;
+ }
+
+ .mid{
+      width: 100%;
+      position: relative;
+      margin-top: -20px ;
+
+ }
+ .textmid{
+     width: 100%;
+     height: 100%;
+      text-align: center;
+ }
+ .textmid h4{
+      font-size: 2vw;
+      font-weight: 500;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-transform: capitalize;
+ }
+ .textmid button{
+     padding: .5vw 2vw;
+     margin-top: 15px;
+ }
+
+ .textcontent{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     gap: 20px;
+      padding: 0 0vw;
+      margin-top: 70px;
+      margin-bottom: 20px;
+ }
+
+.textlogo{
+    min-height: 12vw;
+     min-width: 25vw;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     
+}
+.textlogo img{
+   width: 5vw;     
+}
+.textlogo h5{
+      font-size: 1.9vw;
+      font-weight: 800;
+      text-transform: capitalize;
+
+}
+
+.textlogo p{
+      font-size: 1vw;
+      font-weight: 300;
+      line-height: 20px;
+      text-transform: capitalize;
+}
+.textlogo button{
+      margin-bottom: 10px;
+      padding: .6vw 2vw;
+      color: black;
+      text-transform: capitalize;
+      background-color: none;
+      background-color: rgb(253, 244, 226);
+      border: none;
+      border-radius: 50px;
+}
+.about{
+       width: 100%;
+       display: flex;
+       height: calc(100% - 80px);
+       margin-top: 90px;
+}
+.about .left{
+     width: 50%;
+     height: 100%;
+}
+.about .left img{
+     width: 100%;
+     height: 100%;
+}
+.about .right{
+     width: 50%;
+     height: 100%;
+}
+.about .right h5{
+    padding:  12vw 1vw;
+    font-size:3vw;
+    line-height: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.company{
+      width: 100%;
+      overflow: hidden;
+}
+.companytext {
+   text-align: center;
+   text-transform: capitalize;
+   font-size: 2vw;
+   font-weight: 500;
+   color: #000;
+   margin-top: 20px;
+}
+.complogo{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      /* padding: 0 3vw; */
+      margin-top: 50px;
+      margin-bottom: 20px;
+      gap: 30px;
+      flex-wrap: wrap;
+
+}
+.complogo img{
+      width: 7vw; 
+    
+
+ }
+ #contents{
+     margin-top: 70px;
+ }
+
+ .back{
+   padding: 2vw 2vw ;
+ }
+ .backtext{
+      text-align: center;
+      margin-bottom: 2vw;
+      font-size: 1.4vw;
+     font-weight: 200;
+     text-transform: capitalize;
+
+ }
+ .backimge{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+
+ }
+ .backimg{
+      width: 20vw;
+      height: 20vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: coverr;
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWQPdTGBySK7P6_xFHNQBZul-dtAPEgWIdHg&usqp=CAU');
+ }
+
+ 
+ 
+ footer{
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     margin-top: 30px;
+     background-color: rgb(205, 230, 255);
+ }
+ .downmenu{
+         flex-direction: column;
+          
+ }
+ .downmenu h2{
+      font-size: 2vw;
+      text-align: center;
+      text-transform: capitalize;
+     
+ }
+ .downmenu h4{
+     align-items: center;
+     text-transform: capitalize;
+     text-align: center;
+     margin: 10px;
+ }
+
+
+
+
+
+ @media (max-width:600px) {
+     .top h4{
+          font-size:3vw ;
+          font-weight: 300;
+     }
+      .nav{
+           height: 60px;
+      }
+       li a{
+           font-size: 2.5vw;
+       }
+       .nav img{
+          width: 50px;
+          height: 50px;
+       }
+      .content{
+           height: calc(100% - 60px);
+           flex-direction: column;
+      }
+      .left{
+           width: 100%;
+          height:40%;
+      }
+      .text h1{
+           font-size: 7vw;
+           line-height: 40px;
+           font-weight: 600;
+
+      }
+      .text p{
+           font: 400;
+           font-size: 3vw;
+           line-height: 18px;
+           margin-top: 20px;
+           margin-bottom: 20px;
+      }
+      .text button{
+          font-size: 2.7vw;
+          padding: 2vw 4vw;
+
+      }
+     
+      .right{
+          width: 100%;
+          height: 50%;
+      }
+
+      .textcontent{
+           flex-direction: column;
+      }
+      .textlogo{
+           width: 70vw;
+           min-height: 50vw;
+      }
+      .textlogo img{
+              width:200px ;
+
+      }
+      .textlogo h5{
+           font-size: 5vw;
+      }
+      .textlogo p{
+           font-size: 2vw;
+      }
+      .textlogo button{
+           font-size: 3.5vw;
+      }
+      .textmid h4{
+           font-size: 4vw;
+      }
+      .textmid button{
+           font-size: 3vw;
+      }
+     .textcontent{
+          gap: 40px;
+     }
+    .about{
+     flex-direction: column;
+     margin-top: 30px;
+    }
+    .about .left{
+     width: 100%;
+     height: 65%;
+    }
+    .about .right{
+     width: 100%;
+     height: 35%;
+     margin-top: -20px; 
+    }
+    .about .right h5{
+        font-size: 4vw;
+        padding: 4px 40px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+    .company{
+     margin-top: -10px;
+    }
+    .companytext h5{
+        font-size: 4.2vw;
+        font-weight: 600;
+    }
+    .complogo{
+     padding: 0 5vw;
+     flex-wrap: wrap;
+    }
+    .complogo img{
+        width: 15vw;
+    }
+   #contents{
+     margin-top: 3px;
+   }
+   .back{
+     margin-top: -50px;
+   }
+   .backtext h4{
+       font-size: 3vw;
+       margin-bottom: 20px;
+}
+.backimge{
+      flex-direction: column;
+      padding: 0 10px;
+
+}
+.backimg{
+     width: 100%;
+     height: 300px;
+}
+footer{
+     flex-direction: column;
+     margin: 20px;
+}
+.downmenu{
+   margin: 10px;
+}
+.downmenu h2{
+     font-size: 6vw;
+}
+.downmenu h4{
+      font-size: 3vw;
+}
+.backimg h3{
+     margin-top: 190px;
+     margin-left: 150px;
+     font-weight: 500;
+ }
+ }
